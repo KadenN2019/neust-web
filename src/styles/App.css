@@ -1,0 +1,27 @@
+Html {box-sizing:border-box; background-color: #000;}
+*, *::before, *::after {box-sizing:inherit}
+
+.App {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-color: #000;
+  height: 100%;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+.LinkTo{
+  color: white;
+  cursor: pointer;
+  padding: 10px 10px;
+  margin: 0px 5px;
+  border-bottom: transparent 1px solid;
+  transition: border .5s;
+}
+
+.LinkTo:hover{
+  border-bottom: white 1px solid;
+}

@@ -1,0 +1,24 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  display: flex;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.HeaderLogo{
+  width: 100%;
+  padding: 10px 30px;
+}
+
+
+.HeaderLinks{
+  display: flex;
+  padding-right: 15px;
+}
+
+.linktoMain{
+  width: 15%;
+}

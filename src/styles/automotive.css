@@ -1,0 +1,189 @@
+.photoGrid1{
+    /* position: relative; */
+    display: grid;
+    grid-template-rows: repeat(4, 3fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    "firstMain firstMain firstMain firstMain firstMain firstMain firstMain firstMain firstMain firstMain firstMain firstMain" 
+    "first1 first1 first1 first2 first2 first2 first3 first3 first3 first4 first4 first4"
+    "first5 first5 first5 first5 first5 first5 first6 first6 first6 first6 first6 first6"
+    "first7 first7 first7 first7 first8 first8 first8 first8 first9 first9 first9 first9";
+    /* width: 100vh; */
+    height: 243vh;
+}
+
+.firstSetMain{
+    background-image: url("../assets/automotive/DSC00293 copy.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: firstMain;
+    background-position-y: center;
+}
+
+.first1{
+    background-image: url("../assets/automotive/danny2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: first1;
+}
+
+.first2{
+    background-image: url("../assets/automotive/danny1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: first2;
+}
+
+.first3{
+    background-image: url("../assets/automotive/danny7.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: first3;
+}
+
+.first4{
+    background-image: url("../assets/automotive/danny4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: first4;
+}
+
+.first5{
+    background-image: url("../assets/automotive/DSC00600.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: first5;
+}
+
+.first6{
+    background-image: url("../assets/automotive/DSC00583.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: first6;
+}
+
+.first7{
+    background-image: url("../assets/automotive/DSC00313.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: first7;
+    background-position-y: center;
+}
+
+.first8{
+    background-image: url("../assets/automotive/DSC00320.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: first8;
+    background-position-y: center;
+}
+
+.first9{
+    background-image: url("../assets/automotive/DSC00509.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: first9;
+    /* background-position-y: top; */
+}
+
+.first10{
+    background-image: url("../assets/automotive/danny5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: first10;
+    background-position-y: center;
+}
+
+
+.photoGrid2{
+    /* position: relative; */
+    display: grid;
+    grid-template-rows: repeat(4, 3fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    "secondMain secondMain secondMain secondMain secondMain secondMain secondMain secondMain secondMain secondMain secondMain secondMain" 
+    "second7 second7 second7 second7 second8 second8 second8 second8 second9 second9 second9 second9"
+    "second1 second1 second1 second2 second2 second2 second3 second3 second3 second3 second3 second3"
+    /* "second5 second5 second5 second5 second5 second5 second6 second6 second6 second6 second6 second6";  */
+    "second5 second5 second5 second5 second6 second6 second6 second6 second6 second6 second6 second6"; 
+    /* width: 100vh; */
+    height: 243vh;
+}
+
+.secondSetMain{
+    background-image: url("../assets/automotive/DSC00973.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: secondMain;
+    background-position-y: -155px;
+}
+
+.second1{
+    background-image: url("../assets/automotive/ghost1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: second1;
+}
+
+.second2{
+    background-image: url("../assets/automotive/DSC00846.jpg");
+    background-repeat: no-repeat;
+    background-size: 107%;
+    grid-area: second2;
+    background-position-x: right;
+}
+
+.second3{
+    background-image: url("../assets/automotive/DSC00959.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position-y: top; */
+    grid-area: second3;
+}
+/* 
+.second4{
+    background-image: url("../assets/automotive/DSC00852.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+    grid-area: second4;
+} */
+
+.second5{
+    background-image: url("../assets/automotive/ghost2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: second5;
+    background-position-y: center;
+}
+
+.second6{
+    background-image: url("../assets/automotive/DSC00895.jpg");
+    background-repeat: no-repeat;
+    background-size: 107%;
+    grid-area: second6;
+    background-position-y: center;
+}
+
+.second7{
+    background-image: url("../assets/automotive/DSC00898.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: second7;
+    background-position-y: center;
+}
+
+.second8{
+    background-image: url("../assets/automotive/ghost3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: second8;
+    background-position-y: center;
+}
+.second9{
+    background-image: url("../assets/automotive/DSC00900.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: second9;
+    background-position-y: center;
+}

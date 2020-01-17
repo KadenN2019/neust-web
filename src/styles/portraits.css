@@ -1,0 +1,35 @@
+.photoGrid1{
+    /* position: relative; */
+    display: grid;
+    grid-template-rows: repeat(4, 3fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    "portMain portMain portMain portMain portMain portMain portMain portMain portMain portMain portMain portMain" 
+    "port1 port1 port1 port2 port2 port2 port3 port3 port3 port4 port4 port4"
+    "port5 port5 port5 port5 port5 port5 port6 port6 port6 port6 port6 port6"
+    "port7 port7 port7 port7 port8 port8 port8 port8 port9 port9 port9 port9";
+    /* width: 100vh; */
+    height: 243vh;
+}
+
+.portSetMain{
+    background-image: url("../assets/automotive/DSC00293 copy.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: portMain;
+    background-position-y: center;
+}
+
+.port1{
+    background-image: url("../assets/automotive/danny2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: port1;
+}
+
+.port2{
+    background-image: url("../assets/automotive/danny1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-area: port2;
+}
