@@ -19,7 +19,7 @@ function App() {
         <div className="first9"></div>
         {/* <div className="first10"></div> */}
       </div>
-      <div className="photoGrid2">
+      <div className="photoGrid1-2">
         <div className="secondSetMain"></div>
         <div className="second1"></div>
         <div className="second2"></div>
@@ -32,6 +32,20 @@ function App() {
         <div className="second7"></div>
         <div className="second8"></div>
         <div className="second9"></div>
+      </div>
+      <div className="photoGrid1-3">
+        <div className="thirdSetMain"></div>
+        <div className="third1"></div>
+        <div className="third2"></div>
+        <div className="third3"></div>
+        <div className="third4"></div>
+
+        <div className="third5"></div>
+        <div className="third6"></div>
+
+        <div className="third7"></div>
+        <div className="third8"></div>
+        <div className="third9"></div>
       </div>
     </div>
   );

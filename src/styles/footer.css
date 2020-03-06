@@ -2,6 +2,7 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .FooterLinks{
@@ -15,7 +16,7 @@
   color: white;
   cursor: pointer;
   padding: 5px 10px;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .LinkSocial{

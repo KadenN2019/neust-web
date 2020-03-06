@@ -1,35 +1,135 @@
-.photoGrid1{
+.photoGrid2{
     /* position: relative; */
     display: grid;
     grid-template-rows: repeat(4, 3fr);
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas: 
     "portMain portMain portMain portMain portMain portMain portMain portMain portMain portMain portMain portMain" 
-    "port1 port1 port1 port2 port2 port2 port3 port3 port3 port4 port4 port4"
-    "port5 port5 port5 port5 port5 port5 port6 port6 port6 port6 port6 port6"
-    "port7 port7 port7 port7 port8 port8 port8 port8 port9 port9 port9 port9";
+    "port1 port1 port1 port1 port2 port2 port2 port2 port3 port3 port3 port3"
+    "port4 port4 port4 port5 port5 port5 port6 port6 port6 port7 port7 port7"
+    "port10 port10 port10 port10 port8 port8 port8 port8 port9 port9 port9 port9";
     /* width: 100vh; */
-    height: 243vh;
+    height: 294vh;
+    /* gap: 2px; */
 }
 
-.portSetMain{
-    background-image: url("../assets/automotive/DSC00293 copy.jpg");
+.portMain{
+    background-image: url("../assets/People/DSC02025-2.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     grid-area: portMain;
     background-position-y: center;
+    background-position-x: center;
 }
 
 .port1{
-    background-image: url("../assets/automotive/danny2.jpg");
+    background-image: url("../assets/People/DSC03731.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     grid-area: port1;
+    background-position-x: center;
+    background-position-y: bottom;
 }
 
 .port2{
-    background-image: url("../assets/automotive/danny1.jpg");
+    background-image: url("../assets/People/DSC01853.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     grid-area: port2;
+    background-position-y: center;
+    background-position-x: center;
 }
+
+.port3{
+    background-image: url("../assets/People/DSC01842.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: port3;
+    background-position-y: top;
+    background-position-x: center;
+}
+
+.port4{
+    background-image: url("../assets/People/DSC00682.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: port4;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.port5{
+    background-image: url("../assets/People/DSC01426.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: port5;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.port6{
+    background-image: url("../assets/People/DSC00167.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: port6;
+    background-position-x: right;
+    background-position-y: top;
+}
+
+.port7{
+    background-image: url("../assets/People/DSC01834.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: port7;
+    background-position-x: center;
+    background-position-y: center;
+}
+.port8{
+    background-image: url("../assets/People/DSC00889.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: port8;
+    background-position-x: center;
+    background-position-y: center;
+}
+.port9{
+    background-image: url("../assets/People/DSC01199.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: port9;
+    background-position-x: center;
+    background-position-y: top;
+}
+.port10{
+    background-image: url("../assets/People/DSC01352.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: port10;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+
+@media screen and (max-width: 940px) {
+    .photoGrid2{
+        /* position: relative; */
+        display: grid;
+        grid-template-rows: repeat(11, 3fr);
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-areas: 
+        "portMain" 
+        "port2"
+        "port1"
+        "port3"
+        "port4"
+        "port5"
+        "port6"
+        "port7"
+        "port10"
+        "port8"
+        "port9";
+        height: 1100vh;
+    }
+}
+
+  

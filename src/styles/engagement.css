@@ -1,0 +1,191 @@
+.photoGridEngagement{
+    display: grid;
+    grid-template-rows: repeat(3, 3fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    "EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain" 
+    "Engagement1 Engagement1 Engagement1 Engagement2 Engagement2 Engagement2 Engagement3 Engagement3 Engagement3 Engagement4 Engagement4 Engagement4"
+    "Engagement7 Engagement7 Engagement7 Engagement7 Engagement8 Engagement8 Engagement8 Engagement8 Engagement9 Engagement9 Engagement9 Engagement9";
+    height: 220.5vh;
+}
+
+.EngagementSetMain{
+    background-image: url("../assets/Couples/DSC02012.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: EngagementMain;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.Engagement1{
+    background-image: url("../assets/Couples/DSC02289.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: Engagement1;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.Engagement2{
+    background-image: url("../assets/Couples/DSC01972.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: Engagement2;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.Engagement3{
+    background-image: url("../assets/Couples/DSC02032.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: Engagement7;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.Engagement4{
+    background-image: url("../assets/Couples/DSC02156.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: Engagement4;
+    background-position-y: top;
+    background-position-x: center;
+}
+
+.Engagement7{
+    background-image: url("../assets/Couples/DSC02072.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: Engagement3;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.Engagement8{
+    background-image: url("../assets/Couples/DSC01959.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: Engagement8;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.Engagement9{
+    background-image: url("../assets/Couples/DSC02059.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: Engagement9;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+
+.photoGridEngagement-2{
+    display: grid;
+    grid-template-rows: repeat(3, 3fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    "EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain EngagementMain" 
+    "Engagement1-2 Engagement1-2 Engagement1-2 Engagement2-2 Engagement2-2 Engagement2-2 Engagement3-2 Engagement3-2 Engagement3-2 Engagement4-2 Engagement4-2 Engagement4-2"
+    "Engagement7-2 Engagement7-2 Engagement7-2 Engagement7-2 Engagement7-2 Engagement7-2 Engagement7-2 Engagement7-2 Engagement9-2 Engagement9-2 Engagement9-2 Engagement9-2";
+    height: 220.5vh;
+}
+
+.EngagementSetMain-2{
+    background-image: url("../assets/Couples/DSC07372.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    grid-area: EngagementMain;
+}
+
+.Engagement1-2{
+    background-image: url("../assets/Couples/DSC06632.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    grid-area: Engagement1-2;
+}
+
+.Engagement2-2{
+    background-image: url("../assets/Couples/DSC06832.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    grid-area: Engagement2-2;
+}
+
+.Engagement3-2{
+    background-image: url("../assets/Couples/DSC07014.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    grid-area: Engagement3-2;
+}
+
+.Engagement4-2{
+    background-image: url("../assets/Couples/DSC06442.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    grid-area: Engagement4-2;
+}
+
+.Engagement7-2{
+    background-image: url("../assets/Couples/DSC07200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: center;
+    grid-area: Engagement7-2;
+}
+
+.Engagement9-2{
+    background-image: url("../assets/Couples/DSC07649.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    grid-area: Engagement9-2;
+}
+
+
+@media screen and (max-width: 940px) {
+    .photoGridEngagement{
+        display: grid;
+        grid-template-rows: repeat(8, 3fr);
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-areas: 
+        "EngagementMain" 
+        "Engagement1"
+        "Engagement2"
+        "Engagement3"
+        "Engagement4"
+        "Engagement7"
+        "Engagement8"
+        "Engagement9";
+        height: 800vh;
+    }
+    .photoGridEngagement-2{
+        display: grid;
+        grid-template-rows: repeat(6, 3fr);
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-areas: 
+        "Engagement9-2"
+        "Engagement2-2"
+        "Engagement1-2" 
+        "Engagement3-2"
+        "Engagement4-2"
+        "Engagement7-2";
+        height: 600vh;
+    }
+  }
+
+  

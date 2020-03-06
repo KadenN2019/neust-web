@@ -1,5 +1,5 @@
 import Ghost1 from "../assets/automotive/DSC00973.jpg"
-import danny1 from "../assets/automotive/DSC00293 copy.jpg"
+import danny1 from "../assets/automotive/DSC00292.jpg"
 import Land from "../assets/landscape/DSC05824.jpg"
 import Couple from "../assets/Couples/DSC02012.jpg"
 

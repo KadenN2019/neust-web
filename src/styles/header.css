@@ -1,4 +1,8 @@
 .Header {
+  display: none;
+}
+
+.MainHeader {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,5 +24,71 @@
 }
 
 .linktoMain{
-  width: 15%;
+  width: 25vh;
+}
+
+.button{
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  z-index: 1000000;
+  position: absolute;
+  right: 0;
+}
+
+.burger{
+  font-size: 4vh;
+  cursor: pointer;
+  padding: 10px 10px;
+  margin: 0px 5px;
+  z-index: 1000000;
+}
+
+
+.bm-overlay{
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  transition: opacity 0.3s ease 0s;
+  padding: 0px 200px;
+  outline: none;
+}
+
+.bm-menu-wrap{
+  position: fixed;
+  right: inherit;
+  top: 0;
+  z-index: 11;
+  width: 100vw;
+  height: 100%;
+  transition: all 0.5s ease 0s;
+  outline: none;
+}
+
+.bm-item.HeaderLinks{
+  outline: none;
+}
+
+@media screen and (max-width: 940px) {
+  .Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .MainHeader {
+    display: none;
+  }
+  .HeaderLinks{
+    background-color: rgba(0, 0, 0, .9);
+    padding: 10px 60px 10px;
+  }
 }

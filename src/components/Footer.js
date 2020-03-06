@@ -10,9 +10,9 @@ function App() {
         <a className="LinkSocial" href="https://www.instagram.com/_neust_/" target="_blank">
           <i class="fa fa-instagram"></i>
         </a>
-        <a className="LinkSocial" href="https://twitter.com/" target="_blank">
+        {/* <a className="LinkSocial" href="https://twitter.com/" target="_blank">
           <i class="fa fa-twitter"></i>
-        </a>
+        </a> */}
         <a className="LinkSocial" href="mailto:kadenn2019@gmail.com" target="_blank">
         <i class="fa fa-envelope"></i>
         </a>

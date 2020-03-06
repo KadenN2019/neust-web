@@ -1,0 +1,84 @@
+.photoGridLand{
+    /* position: relative; */
+    display: grid;
+    grid-template-rows: repeat(3, 3fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    "landMain landMain landMain landMain landMain landMain landMain landMain landMain landMain landMain landMain"
+    "land1 land1 land1 land1 land2 land2 land2 land2 land3 land3 land3 land3"
+    "land5 land5 land5 land6 land6 land6 land7 land7 land7 land7 land7 land7";
+    /* "land8 land8 land8 land9 land9 land9 land9 land9 land9 land9 land9 land9"; */
+    height: 220vh;
+}
+
+.landMain{
+    background-image: url("../assets/landscape/DSC05824.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: landMain;
+    background-position-y: center;
+}
+
+.land1{
+    background-image: url("../assets/landscape/DSC06120.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: land1;
+    background-position-y: top;
+}
+
+.land2{
+    background-image: url("../assets/landscape/DSC05791-Edit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: land2;
+    background-position-y: top;
+}
+
+.land3{
+    background-image: url("../assets/landscape/DSC05967-Edit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: land3;
+    background-position-y: center;
+}
+
+.land6{
+    background-image: url("../assets/landscape/DSC06253.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: land6;
+    background-position-y: center;
+}
+.land5{
+    background-image: url("../assets/landscape/DSC06105.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: land5;
+    background-position-y: center;
+}
+
+.land7{
+    background-image: url("../assets/landscape/DSC05809.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: land7;
+    background-position-y: center;
+}
+
+@media screen and (max-width: 940px) {
+    .photoGridLand{
+        /* position: relative; */
+        display: grid;
+        grid-template-rows: repeat(5, 3fr);
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-areas: 
+        "land1"
+        "land2"
+        "land3"
+        "land5"
+        "land6";
+        /* "land8 land8 land8 land9 land9 land9 land9 land9 land9 land9 land9 land9"; */
+        height: 500vh;
+    }
+}
