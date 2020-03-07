@@ -91,4 +91,9 @@
     background-color: rgba(0, 0, 0, .9);
     padding: 10px 60px 10px;
   }
+
+  .HeaderLogo{
+    width: 80%;
+    padding: 10px 0px;
+  }
 }

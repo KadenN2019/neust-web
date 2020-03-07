@@ -1,3 +1,21 @@
 .dot{
     outline: none;
 }
+
+#PhoneSlider{
+    display: none;
+}
+
+#MainSlider{
+    display: contents;
+}
+
+
+@media screen and (max-width: 800px) {
+    #PhoneSlider{
+        display: contents;
+    }
+    #MainSlider{
+        display: none;
+    }
+}
