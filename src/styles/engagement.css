@@ -7,6 +7,8 @@
     "Engagement1 Engagement1 Engagement1 Engagement2 Engagement2 Engagement2 Engagement3 Engagement3 Engagement3 Engagement4 Engagement4 Engagement4"
     "Engagement7 Engagement7 Engagement7 Engagement7 Engagement8 Engagement8 Engagement8 Engagement8 Engagement9 Engagement9 Engagement9 Engagement9";
     height: 220.5vh;
+    gap: 2px;
+    margin-bottom: 2px;
 }
 
 .EngagementSetMain{
@@ -91,6 +93,7 @@
     "Engagement1-2 Engagement1-2 Engagement1-2 Engagement2-2 Engagement2-2 Engagement2-2 Engagement3-2 Engagement3-2 Engagement3-2 Engagement4-2 Engagement4-2 Engagement4-2"
     "Engagement7-2 Engagement7-2 Engagement7-2 Engagement7-2 Engagement7-2 Engagement7-2 Engagement7-2 Engagement7-2 Engagement9-2 Engagement9-2 Engagement9-2 Engagement9-2";
     height: 220.5vh;
+    gap: 2px;
 }
 
 .EngagementSetMain-2{
@@ -172,6 +175,8 @@
         "Engagement8"
         "Engagement9";
         height: 800vh;
+        gap: 2px 0px;
+        bottom: 2px;
     }
     .photoGridEngagement-2{
         display: grid;
@@ -185,6 +190,7 @@
         "Engagement4-2"
         "Engagement7-2";
         height: 600vh;
+        gap: 2px 0px;
     }
   }
 

@@ -10,7 +10,7 @@ const MyContext = React.createContext();
 
 // create the provider
 const MyProvider = (props) => {
-  const [menuOpenState, setMenuOpenState] = useState(false)
+  const [menuOpenState, setMenuOpenState] = useState(true)
   
   return (
     <MyContext.Provider value={{
@@ -51,6 +51,11 @@ const Navigation = () => {
         <Link to="/automotive">
           <div className="LinkTo">
             Automotive
+          </div>
+        </Link>
+        <Link to="/offroad">
+          <div className="LinkTo">
+            Offroad Racing
           </div>
         </Link>
         <Link to="/portraits">
@@ -97,6 +102,11 @@ function App(){
             Automotive
           </div>
         </Link>
+        <Link to="/offroad">
+          <div className="LinkTo">
+            Offroad Racing
+          </div>
+        </Link>
         <Link to="/portraits">
           <div className="LinkTo">
             Portraits
@@ -119,45 +129,3 @@ function App(){
 }
 
 export default App;
-
-
-
-
-
-
-
-// function App() {
-  
-//   return (
-    // <div className="Header">
-    //   <Link className="linktoMain" to="/">
-    //     <img  className="HeaderLogo" src={Logo} alt="Neust"/>
-    //   </Link>
-
-    //   <div className="HeaderLinks">
-    //     <Link to="/automotive">
-    //       <div className="LinkTo">
-    //         Automotive
-    //       </div>
-    //     </Link>
-    //     <Link to="/portraits">
-    //       <div className="LinkTo">
-    //         Portraits
-    //       </div>
-    //     </Link>
-    //     <Link to="/engagement">
-    //       <div className="LinkTo">
-    //         Wedding
-    //       </div>
-    //     </Link>
-    //     <Link to="/landscape">
-    //       <div className="LinkTo">
-    //         Landscape
-    //       </div>
-    //     </Link>
-    //   </div>
-    // </div>
-//   );
-// }
-
-// export default App;

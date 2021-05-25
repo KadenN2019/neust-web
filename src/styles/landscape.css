@@ -9,6 +9,7 @@
     "land5 land5 land5 land6 land6 land6 land7 land7 land7 land7 land7 land7";
     /* "land8 land8 land8 land9 land9 land9 land9 land9 land9 land9 land9 land9"; */
     height: 220vh;
+    gap: 2px;
 }
 
 .landMain{
@@ -80,5 +81,6 @@
         "land6";
         /* "land8 land8 land8 land9 land9 land9 land9 land9 land9 land9 land9 land9"; */
         height: 500vh;
+        gap: 2px 0px;
     }
 }

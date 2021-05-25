@@ -1,0 +1,196 @@
+.photoGrid1{
+    /* position: relative; */
+    display: grid;
+    grid-template-rows: repeat(4, 3fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    "firstMain firstMain firstMain firstMain firstMain firstMain firstMain firstMain firstMain firstMain firstMain firstMain" 
+    "first2 first2 first2 first2 first2 first2 first5 first5 first5 first5 first5 first5"
+    "first3 first3 first3 first4 first4 first4 first10 first10 first10 first6 first6 first6"
+    "first7 first7 first7 first7 first8 first8 first8 first8 first9 first9 first9 first9";
+    /* width: 100vh; */
+    height: 294vh;
+    gap: 2px;
+    margin-bottom: 2px;
+}
+
+.offroadSetMain{
+    background-image: url("../assets/offroad/851A3802.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: firstMain;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.offroad1{
+    background-image: url("../assets/offroad/851A4044.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: first1;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.offroad2{
+    background-image: url("../assets/offroad/851A4048.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: first2;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.offroad3{
+    background-image: url("../assets/offroad/851A4339.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: first3;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+
+.offroad4{
+    background-image: url("../assets/offroad/532A8520.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: first4;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.offroad5{
+    background-image: url("../assets/offroad/096A5321.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: first5;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.offroad6{
+    background-image: url("../assets/offroad/851A2463.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: first6;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.offroad7{
+    background-image: url("../assets/offroad/532A9226.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: first7;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.offroad8{
+    background-image: url("../assets/offroad/096A5005.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: first8;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.offroad9{
+    background-image: url("../assets/offroad/851A4221.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: first9;
+    background-position-y: center;
+    background-position-x: center;
+    /* background-position-y: top; */
+}
+.offroad10{
+        background-image: url("../assets/offroad/096A4724.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-area: first10;
+        background-position-y: center;
+        background-position-x: center;
+        /* background-position-y: top; */    
+}
+
+@media screen and (max-width: 940px) {
+    .photoGrid1{
+        /* position: relative; */
+        display: grid;
+        grid-template-rows: repeat(21, 3fr);
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-areas: 
+        /* "firstMain"  */
+        
+        "first3"
+        "first3"
+        "first3"
+        "firstMain"
+        "first2"
+        "first5"
+        "first4"
+        "first4"
+        "first4"
+        "first10"
+        "first10"
+        "first10"
+        /* "first5" */
+        /* "first6" */
+        "first7"
+        "first7"
+        "first7"
+        "first8"
+        "first8"
+        "first8"
+        "first9"
+        "first9"
+        "first9";
+        /* width: 100vh; */
+        height: 700vh;
+        gap: 2px 0px;
+        margin-bottom: -2px;
+    }
+  }
+
+  
+
+
+
+
+
+
+
+.MainIMG{
+    width: 100vw;
+}
+
+.galleryImg{
+    width: 99%;
+    /* margin: 1px 0px; */
+}
+
+.row {
+    display: flex;
+}
+/* 
+.column1 {
+    flex: 33%;
+    flex-direction: row;
+}
+
+.column2 {
+    flex: 33%;
+    flex-direction: row;
+}
+
+.column3 {
+    flex: 33%;
+    flex-direction: row;
+} */
+
+.cont{
+    width: 100%;
+    margin: auto;
+}

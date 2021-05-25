@@ -10,7 +10,7 @@
     "port10 port10 port10 port10 port8 port8 port8 port8 port9 port9 port9 port9";
     /* width: 100vh; */
     height: 294vh;
-    /* gap: 2px; */
+    gap: 2px;
 }
 
 .portMain{
@@ -129,6 +129,7 @@
         "port8"
         "port9";
         height: 1100vh;
+        gap: 2px 0px;
     }
 }
 

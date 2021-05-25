@@ -6,11 +6,13 @@ import Header from './Header'
 import Footer from './Footer'
 import Main from './Main'
 import automotive from './automotive'
+import offroad from './offroad'
 import portraits from './portraits'
 import landscape from './landscape'
 import engagement from './engagement'
 
 import '../styles/App.css'
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         <Header/>
           <Route exact path="/" component={Main} />
           <Route path="/automotive" component={automotive}/>
+          <Route path="/offroad" component={offroad}/>
           <Route path="/portraits" component={portraits}/>
           <Route path="/landscape" component={landscape}/>
           <Route path="/engagement" component={engagement}/>

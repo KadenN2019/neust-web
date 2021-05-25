@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/footer.css'
 import { Link } from "react-router-dom"
+import LogoSymbol from '../assets/Neust-Symbol2.png'
 
 
 function App() {
